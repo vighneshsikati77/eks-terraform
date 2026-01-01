@@ -10,9 +10,9 @@ terraform.tfstate.backup
 # Sensitive / secret files
 # -------------------------
 aws
-password
-pass
-encoded
+password.txt
+pass.txt
+encoded.txt
 *.pem
 *.key
 *.env
