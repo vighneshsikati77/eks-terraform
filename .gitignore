@@ -1,0 +1,32 @@
+# -------------------------
+# Terraform files
+# -------------------------
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# -------------------------
+# Sensitive / secret files
+# -------------------------
+aws
+password
+pass
+encoded
+*.pem
+*.key
+*.env
+
+# -------------------------
+# Local binaries
+# -------------------------
+kubectl
+
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
